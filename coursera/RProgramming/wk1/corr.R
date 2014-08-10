@@ -8,6 +8,7 @@
 # (on all variables) is greater than the threshold. 
 # The function should return a vector of correlations for the monitors that meet 
 # the threshold requirement.
+setwd("~/Data Science/Coursera/R Programming/Programming Assignments/wk2/")
 
 corr <- function(directory, threshold = 0) {
         ## 'directory' is a character vector of length 1 indicating
